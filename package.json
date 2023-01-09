@@ -1,0 +1,13 @@
+{
+    "name": "p5smetroid",
+    "version": "1.0.0",
+    "description": "Rendering Super Metroid in p5.js",
+    "dependencies": {
+        "p5.gui.variables": "*",
+        "p5.play": "*"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "echo 'Starting Webpack dev server! \n' && webpack-dev-server"
+      }
+}

@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    metroid:
+        image: webpack
+        restart: always
+        ports:
+            - 127.0.0.1:80:80
+        volumes:
+            - src:/usr/src/app
+            - assets:/usr/src/app/assets
+            - node_modules:/usr/src/app/node_modules

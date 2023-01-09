@@ -1,0 +1,20 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+*.min.js
+*.js.map
+
+# Ignore p5.js sound library files
+*.mp3
+*.ogg
+
+# Ignore VS Code settings and extensions
+.vscode/
+
+# Ignore other temporary files
+*.swp
+*.DS_Store
+
+# Ignore p5 web editor files
+.p5_web_editor/
